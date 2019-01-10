@@ -1,0 +1,56 @@
+content {
+	width: 1100px;
+	height: 100%;
+}
+section {
+	width:1100px;
+	margin: auto;
+}
+article {
+	display: inline-block;
+}
+.soloxs {
+	height: 250px;
+	width: 210px;
+}
+.lgbec {
+	width: 250px;
+}
+section div article {
+	width: 220px;
+}
+section div article h2 ,p, h1, h2, h3{
+	text-align: center;
+	color: #04746f;
+}
+p {
+	color: #F40678
+}
+content {
+	background-color: #04746f;
+	width: 100%;
+}
+nav li {
+	display: inline-block;
+}
+.space {
+	height: 300px;
+	width: 100%;
+}
+.cosmo {
+	height: 100px;
+	width: 100px;
+	animation: cosmo 10s linear infinite; /* Boucle d'animation ! */
+	z-index: 999;
+
+}
+@keyframes cosmo {
+    from {
+        transform: translate(-50px, -150px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1200px, -150px) rotate(360deg);
+    }
+}
+
